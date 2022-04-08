@@ -29,7 +29,7 @@ A simple Apple news feed in which you can view short information about the news 
 
 ## Pagination
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/69767713/162342096-dfb4e386-429c-4c4d-979d-c1d76194dd4f.PNG" width="390" height="844" hspace="60">
+<img src="https://user-images.githubusercontent.com/69767713/162342096-dfb4e386-429c-4c4d-979d-c1d76194dd4f.PNG" width="390" height="844" hspace="20">
 <img src="https://user-images.githubusercontent.com/69767713/162342177-ffc3e4c2-ec94-4949-9c75-d4c884b144eb.PNG" width="390" height="844">
 </p>
 
