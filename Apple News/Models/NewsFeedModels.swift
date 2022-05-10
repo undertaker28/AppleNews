@@ -7,23 +7,14 @@
 
 import Foundation
 
-class NewsFeed: ObservableObject, RandomAccessCollection {
-    typealias Element = NewsListItem
-    
+class NewsFeed: ObservableObject {
     @Published var newsListItems = [NewsListItem]()
-    
-    var startIndex: Int { newsListItems.startIndex }
-    var endIndex: Int { newsListItems.endIndex }
     var loadStatus = LoadStatus.ready(nextPage: 1)
     
     var urlBase = "https://newsapi.org/v2/everything?q=apple&apiKey=f448288182754b00a7c1f774a34e47f8&language=en&page="
     
     init() {
         loadMoreArticles()
-    }
-    
-    subscript(position: Int) -> NewsListItem {
-        return newsListItems[position]
     }
     
     func loadMoreArticles(currentItem: NewsListItem? = nil) {
